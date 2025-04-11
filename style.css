@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff;
+  color: #1a1a1a;
+}
+
+.header {
+  background-color: #f99ca2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  color: #fff;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: 'Dancing Script', cursive;
+}
+
+.nav a {
+  color: white;
+  margin-left: 1.5rem;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.hero {
+  text-align: center;
+  padding: 4rem 1rem;
+  background-color: #ffe6e6;
+  background-image: url('https://media.istockphoto.com/id/1299083633/vector/abstract-scene-background-cylinder-podium-on-pink-background-product-presentation-mock-up.jpg?s=612x612&w=0&k=20&c=JRjs-XAnsRFPwOs7QogTQzPHf5G6bjrz-PRzFNHuUgM=');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 60px 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.hero h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+    color: #ff6f61;
+}
+
+.hero .btn {
+  background-color: #f97386;
+  color: white;
+  padding: 0.7rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.categories {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.categories button {
+  margin: 0 10px;
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #f99ca2;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.product-section {
+  padding: 2rem;
+  text-align: center;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.product-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  padding: 1rem;
+}
+
+.product-card img {
+  max-width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.product-card h3 {
+  margin: 0.5rem 0;
+}
+
+.product-card button {
+  background-color: #f97386;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  margin-top: 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 5rem 1rem;
+}
+.content {
+  max-width: 600px;
+  background-image: url('https://media.istockphoto.com/id/1299083633/vector/abstract-scene-background-cylinder-podium-on-pink-background-product-presentation-mock-up.jpg?s=612x612&w=0&k=20&c=JRjs-XAnsRFPwOs7QogTQzPHf5G6bjrz-PRzFNHuUgM=');
+    background-size: cover;
+    background-position: center;
+  border-radius: 50px; /* Rounded edges */
+  padding: 2rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.content h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-family: 'Dancing Script', cursive;
+}
+.content p {
+  font-size: 1.8rem;
+  font-family: 'Dancing Script', cursive;
+}
